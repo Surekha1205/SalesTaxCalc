@@ -38,12 +38,6 @@ This project uses **Cypress** for full UI flow testing.
 - Cypress installed
 - Add "cypress:open": "cypress open" in package.json under scripts
 
-### End-to-End (E2E) Tests with Cypress
-
-#### Install dependencies
-
-From the `frontend` folder:
-
 ### Cmd
 
 cd taxcalculationfrontend
