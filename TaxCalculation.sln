@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculation.Api", "TaxCalculation.Api\TaxCalculation.Api.csproj", "{798CACA6-D74F-4A48-A914-50BB0C7F86B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculation.Application", "TaxCalculation.Application\TaxCalculation.Application.csproj", "{19E4BAE3-6641-4153-B56F-6094169653B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaxCalculation.Frontend", "TaxCalculation.Frontend", "{F43F02F5-F0FC-4CF7-B7F7-875F17A3554E}"
+	ProjectSection(SolutionItems) = preProject
+		taxcalculationfrontend\.gitignore = taxcalculationfrontend\.gitignore
+		taxcalculationfrontend\eslint.config.js = taxcalculationfrontend\eslint.config.js
+		taxcalculationfrontend\index.html = taxcalculationfrontend\index.html
+		taxcalculationfrontend\package-lock.json = taxcalculationfrontend\package-lock.json
+		taxcalculationfrontend\package.json = taxcalculationfrontend\package.json
+		taxcalculationfrontend\README.md = taxcalculationfrontend\README.md
+		taxcalculationfrontend\vite.config.js = taxcalculationfrontend\vite.config.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{204EC4F0-A7C6-4F14-9A71-FBFB681CC235}"
+	ProjectSection(SolutionItems) = preProject
+		taxcalculationfrontend\src\App.css = taxcalculationfrontend\src\App.css
+		taxcalculationfrontend\src\App.jsx = taxcalculationfrontend\src\App.jsx
+		taxcalculationfrontend\src\index.css = taxcalculationfrontend\src\index.css
+		taxcalculationfrontend\src\main.jsx = taxcalculationfrontend\src\main.jsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{28898319-92F3-403F-877E-FE88807B366A}"
+	ProjectSection(SolutionItems) = preProject
+		taxcalculationfrontend\public\vite.svg = taxcalculationfrontend\public\vite.svg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{798CACA6-D74F-4A48-A914-50BB0C7F86B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798CACA6-D74F-4A48-A914-50BB0C7F86B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798CACA6-D74F-4A48-A914-50BB0C7F86B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798CACA6-D74F-4A48-A914-50BB0C7F86B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E4BAE3-6641-4153-B56F-6094169653B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E4BAE3-6641-4153-B56F-6094169653B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E4BAE3-6641-4153-B56F-6094169653B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E4BAE3-6641-4153-B56F-6094169653B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{204EC4F0-A7C6-4F14-9A71-FBFB681CC235} = {F43F02F5-F0FC-4CF7-B7F7-875F17A3554E}
+		{28898319-92F3-403F-877E-FE88807B366A} = {F43F02F5-F0FC-4CF7-B7F7-875F17A3554E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24EBF7DD-7232-4C51-B828-97AEE98C186E}
+	EndGlobalSection
+EndGlobal

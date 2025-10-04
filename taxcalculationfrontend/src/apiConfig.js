@@ -1,0 +1,1 @@
+export const api_endpoint = "https://localhost:7260/api/CalculateTax";
