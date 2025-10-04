@@ -38,7 +38,7 @@ This project uses **Cypress** for full UI flow testing.
 - Cypress installed
 - Add "cypress:open": "cypress open" in package.json under scripts
 
-### Cmd
+### Open Cmd to run the dependencies
 
 cd taxcalculationfrontend
 npm install
