@@ -40,18 +40,11 @@ This project uses **Cypress** for full UI flow testing.
 
 ### End-to-End (E2E) Tests with Cypress
 
-This project uses **Cypress** for full UI flow testing.
-
-#### Prerequisites
-
-- Node.js installed
-- Cypress installed (or via `npm install`)
-
 #### Install dependencies
 
 From the `frontend` folder:
 
-### In Cmd
+### Cmd
 
 cd taxcalculationfrontend
 npm install
